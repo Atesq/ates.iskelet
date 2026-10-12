@@ -1,0 +1,74 @@
+
+body {
+    background-color: #b37ba5;
+    margin: 0;
+
+    display: grid;
+    grid-template-columns: repeat(12, 50px);
+    grid-template-rows: repeat(12, 50px);
+    gap: 0px;
+}
+
+div.kafa1 {
+    background-color: #808080;
+    grid-column: 2/12;
+    grid-row: 2/6;
+}
+
+div.kafa2 {
+    background-color: #808080;
+    grid-column: 2/12;
+    grid-row: 8/9;
+}
+
+div.kafa3 {
+    background-color: #808080;
+    grid-column: 2/12;
+    grid-row: 10/11;
+}
+
+
+div.goz1 {
+    background-color: #000000;
+    grid-column: 3/6;
+    grid-row: 6/8;
+}
+
+div.goz2 {
+    background-color: #000000;
+    grid-column: 8/11;
+    grid-row: 6/8;
+}
+
+div.burun1 {
+    background-color: #808080;
+    grid-column: 6/8;
+    grid-row: 6/7;
+}
+
+
+div.burun2 {
+    background-color: #555555;
+    grid-column: 6/8;
+    grid-row: 7/9;
+}
+
+
+div.yanak1 {
+    background-color: #808080;
+    grid-column: 2/3;
+    grid-row: 6/10;
+}
+
+div.yanak2 {
+    background-color: #808080;
+    grid-column: 11/12;
+    grid-row: 6/10;
+}
+
+
+div.agiz {
+    background-color: #000000;
+    grid-column: 3/11;
+    grid-row: 9/10;
+}
